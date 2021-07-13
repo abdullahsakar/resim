@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+background-color: rgba(87, 87, 87, 0.678);
+}
+
+
+.control{
+display: flex;
+align-items: center;
+justify-content: center ;
+margin: 10px;
+}
+
+button{
+outline: none;
+border: none;
+background:none;
+color: dodgerblue;
+font-size: 60px; 
+padding: 10px;
+font-weight: bold;
+transition: color 0.3s ease-out;
+}
+
+button:hover{
+    color: aqua;
+
+}
+
+span{
+font-size: 60px;
+color: turquoise;
+padding: 0 10px;
+}
+
+img{
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow:5px 5px 10px #000000c0;
+    opacity: 3;
+}
+
+img:hover{
+    opacity:1;
+}
